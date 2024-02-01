@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors | Game </title>
+</head>
+
+<body>
+
+    <div class="container">
+        <section id="title">
+            <p>Rock Paper Scissors</p>
+        </section>
+        <div class="score_container">
+            <p>scoreboard</p>
+            <div class="score">
+                <p id="user_score">0</p>
+                <span>-</span>
+                <p id="computer_score">0</p>
+            </div>
+
+        </div>
+        <section id="game_trash">
+
+            <div id="computer">
+
+                <div class="group_btn">
+                    <button><img src="assets/paper.svg" alt=""></button>
+                    <button><img src="assets/rock.svg" alt=""></button>
+                    <button><img src="assets/scissors.svg" alt=""></button>
+
+                </div>
+                <div>
+                    <h3>Computer</h3>
+                </div>
+            </div>
+            <div id="table_game">
+                <p id="result-text">V.S</p>
+            </div>
+            <div id="user">
+
+                <div>
+                    <h3>User</h3>
+                    <p>Choise an option to get start</p>
+                </div>
+                <div class="group_btn">
+                    <button id="paper"><img src="assets/paper.svg" alt=""></button>
+                    <button id="rock"><img src="assets/rock.svg" alt=""></button>
+                    <button id="scissors"><img src="assets/scissors.svg" alt=""></button>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
